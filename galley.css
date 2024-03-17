@@ -1,0 +1,111 @@
+.gallery{
+    margin: 2% 4% 2% 3% ;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 165px; */
+}
+.left-photo-space{
+    margin-right: 20px;
+}
+.middle-space{
+    margin: 0px 10px 0px 10px;
+}
+.right-photo-space{
+    /* margin-left: 150px; */
+    margin-left: 20px;
+}
+.img{
+    height: 260px;
+}
+.even-photo-gallery{
+    display: flex;
+    justify-content: center;
+    margin: 5% 10% 5% 10%;
+}
+.even-left-space{
+    margin-right: 50px;
+}
+.even-right-space{
+    margin-left: 50px;
+}
+.year-2023-24 h3{
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* background-color: black; */
+}
+.year{
+    font-size: 190%;
+    font-style: oblique;
+    color: white;
+    justify-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    /* background-color: #000; */
+    padding-top: 0.5%;
+    font-weight: 900;
+  
+  }
+  
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .lightbox-content {
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .lightbox img {
+    max-width: 75%;
+    max-height: 75%;
+  }
+  
+  .close-btn {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .lightbox-buttons {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .lightbox-buttons button {
+    margin: 0 10px;
+    color: #fff;
+    background-color: rgb(84, 0, 0);
+  }
+  
+
+  .frame {
+    --b: 7px; /* border thickness */
+    --c: #0000 25%,rgb(255, 157, 107) 0; /* define the color here */
+    padding: 10px;
+    background:
+      conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--c)) 0    0,
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--c)) 100% 0,
+      conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--c)) 0    100%,
+      conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--c)) 100% 100%;
+    background-size: 50px 50px; /* adjust border length here */
+    background-repeat: no-repeat;
+    transition: .6s;
+    cursor: pointer;
+  }
+
